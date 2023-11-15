@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import styles from "../styles/Global";
 
-const Button = () => {
+const Button = ({ assetUrl, link }) => {
   return (
-    <div>Button</div>
-  )
-}
+    <div
+      className={styles.btnBlack}
+      onClick={() => window.open(link, "_blank")}
+    >
+      <img src={assetUrl} alt="expo_icon" className={styles.btnIcon} />
+    </div>
+  );
+};
 
-export default Button
+export default Button;
