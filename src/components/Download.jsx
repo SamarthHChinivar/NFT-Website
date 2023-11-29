@@ -15,9 +15,19 @@ const Download = () => {
             Get the Full Source Code on GitHub{" "}
           </p>
         </div>
-        {/* Add link using href or onClick to GitHub repo */}
-        <button className={styles.btnPrimary}>Source Code</button>
-        <div className={styles.flexCenter} >
+
+        <button
+          onClick={() =>
+            window.open(
+              "https://github.com/SamarthHChinivar/NFT-Website",
+              "_blank"
+            )
+          }
+          className={styles.btnPrimary}
+        >
+          Source Code
+        </button>
+        <div className={styles.flexCenter}>
           <img
             src={assets.scene}
             alt="download_png"

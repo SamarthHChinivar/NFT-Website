@@ -46,7 +46,7 @@ const SectionWrapper = ({
           {showBtn && (
             //add link to GitHub Apk
             <Button
-              assetUrl={assets.expo}
+              assetUrl={assets.github}
               link=""
             />
           )}
