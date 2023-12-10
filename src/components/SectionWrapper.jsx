@@ -44,10 +44,9 @@ const SectionWrapper = ({
             {description}
           </p>
           {showBtn && (
-            //add link to GitHub Apk
             <Button
               assetUrl={assets.github}
-              link=""
+              link="https://github.com/SamarthHChinivar/NFT-RN-App/releases/tag/v1.0.1"
             />
           )}
         </div>
